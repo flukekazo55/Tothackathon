@@ -30,7 +30,7 @@ function chatBot() {
 			return "ok, Your Choose a menu Report Problem from Menu-tab.";
 		
 		if(this.match('thank you.'))
-			return "";
+			return "ok, bye bye.";
 		
 		if(this.match('(dumb|stupid|is that all)'))
 			return ["hey i'm just a proof of concept", "you can make me smarter if you'd like"];
