@@ -57,7 +57,17 @@
 
 	<ul class="nav navbar-nav toolbar pull-right">
         
-		<li class="dropdown toolbar-icon-bg hidden-xs">
+		<li class="toolbar-icon-bg hidden-xs">
+            <a href="#"><span class="icon-bg"><i class="ti ti-world"></i></span></i></a>
+        </li>
+
+        
+
+        <li class="toolbar-icon-bg hidden-xs" id="trigger-fullscreen">
+            <a href="#" class="toggle-fullscreen"><span class="icon-bg"><i class="ti ti-fullscreen"></i></span></i></a>
+        </li>
+
+        <li class="dropdown toolbar-icon-bg hidden-xs">
 			<a href="#" class="hasnotifications dropdown-toggle" data-toggle='dropdown'><span class="icon-bg"><i class="ti ti-email"></i></span><span
 			class="badge badge-deeporange">2</span></a>
 			<div class="dropdown-menu notifications arrow">
@@ -69,10 +79,10 @@
 						<li class="media notification-message">
 							<a href="#">
 								<div class="media-left">
-									<img class="img-circle avatar" src="photo/logo.png" alt="" />
+									<img class="img-circle avatar" src="photo/man.png" alt="" />
 								</div>
 								<div class="media-body">
-									<h4 class="notification-heading"><strong>Proma</strong> <span class="text-gray">- ขณะนี้มีโปรโมชั่นพิเศษ...</span></h4>
+									<h4 class="notification-heading"><strong>Vincent Keller</strong> <span class="text-gray">‒ Design should be ...</span></h4>
 									<span class="notification-time">2 mins ago</span>
 								</div>
 							</a>
@@ -80,10 +90,10 @@
 						<li class="media notification-message">
 							<a href="#">
 								<div class="media-left">
-									<img class="img-circle avatar" src="photo/logo.png" alt="" />
+									<img class="img-circle avatar" src="photo/man.png" alt="" />
 								</div>
 								<div class="media-body">
-									<h4 class="notification-heading"><strong>Proma</strong> <span class="text-gray">- ใกล้ถึงวันชำระค่าบริการแล้วนะคะ</span></h4>
+									<h4 class="notification-heading"><strong>Frend Pratt</strong> <span class="text-gray">‒ I will start with the ...</span></h4>
 									<span class="notification-time">40 mins ago</span>
 								</div>
 							</a>
@@ -91,10 +101,10 @@
 						<li class="media notification-message">
 							<a href="#">
 								<div class="media-left">
-									<img class="img-circle avatar" src="photo/logo.png" alt="" />
+									<img class="img-circle avatar" src="photo/man.png" alt="" />
 								</div>
 								<div class="media-body">
-									<h4 class="notification-heading"><strong>Proma</strong> <span class="text-gray">- หายไปนานเลยนะ ไม่คิดถึง Proma เหรอ</span></h4>
+									<h4 class="notification-heading"><strong>Cynthia Hines</strong> <span class="text-gray">‒ Interior bits are ...</span></h4>
 									<span class="notification-time">6 hours ago</span>
 								</div>
 							</a>
@@ -102,10 +112,10 @@
 						<li class="media notification-message">
 							<a href="#">
 								<div class="media-left">
-									<img class="img-circle avatar" src="photo/logo.png" alt="" />
+									<img class="img-circle avatar" src="photo/man.png" alt="" />
 								</div>
 								<div class="media-body">
-									<h4 class="notification-heading"><strong>Proma</strong> <span class="text-gray">- ขอบคุณที่ใช้บริการ TOT นะคะ</span></h4>
+									<h4 class="notification-heading"><strong>Robin Horton</strong> <span class="text-gray">‒ Are you even ...</span></h4>
 									<span class="notification-time">8 days ago</span>
 								</div>
 							</a>
@@ -113,11 +123,33 @@
 						<li class="media notification-message">
 							<a href="#">
 								<div class="media-left">
-									<img class="img-circle avatar" src="photo/logo.png" alt="" />
+									<img class="img-circle avatar" src="photo/man.png" alt="" />
 								</div>
 								<div class="media-body">
 									<h4 class="notification-heading"><strong>Amanda Torrez</strong> <span class="text-gray">‒ The message is ...</span></h4>
 									<span class="notification-time">16 hours ago</span>
+								</div>
+							</a>
+						</li>
+						<li class="media notification-message">
+							<a href="#">
+								<div class="media-left">
+									<img class="img-circle avatar" src="photo/man.png" alt="" />
+								</div>
+								<div class="media-body">
+									<h4 class="notification-heading"><strong>Khan Farhan</strong> <span class="text-gray">‒ Expected the stuff ...</span></h4>
+									<span class="notification-time">2 days ago</span>
+								</div>
+							</a>
+						</li>
+						<li class="media notification-message">
+							<a href="#">
+								<div class="media-left">
+									<img class="img-circle avatar" src="photo/man.png" alt="" />
+								</div>
+								<div class="media-body">
+									<h4 class="notification-heading"><strong>Will Whedon</strong> <span class="text-gray">‒ The movie of this ...</span></h4>
+									<span class="notification-time">4 days ago</span>
 								</div>
 							</a>
 						</li>
@@ -128,10 +160,81 @@
 				</div>
 			</div>
 		</li>
+		
+		<li class="dropdown toolbar-icon-bg">
+			<a href="#" class="hasnotifications dropdown-toggle" data-toggle='dropdown'><span class="icon-bg"><i class="ti ti-bell"></i></span><span class="badge badge-deeporange">2</span></a>
+			<div class="dropdown-menu notifications arrow">
+				<div class="topnav-dropdown-header">
+					<span>Notifications</span>
+				</div>
+				<div class="scroll-pane">
+					<ul class="media-list scroll-content">
+						<li class="media notification-success">
+							<a href="#">
+								<div class="media-left">
+									<span class="notification-icon"><i class="ti ti-check"></i></span>
+								</div>
+								<div class="media-body">
+									<h4 class="notification-heading">Update 1.0.4 successfully pushed</h4>
+									<span class="notification-time">8 mins ago</span>
+								</div>
+							</a>
+						</li>
+						<li class="media notification-info">
+							<a href="#">
+								<div class="media-left">
+									<span class="notification-icon"><i class="ti ti-check"></i></span>
+								</div>
+								<div class="media-body">
+									<h4 class="notification-heading">Update 1.0.3 successfully pushed</h4>
+									<span class="notification-time">24 mins ago</span>
+								</div>
+							</a>
+						</li>
+						<li class="media notification-teal">
+							<a href="#">
+								<div class="media-left">
+									<span class="notification-icon"><i class="ti ti-check"></i></span>
+								</div>
+								<div class="media-body">
+									<h4 class="notification-heading">Update 1.0.2 successfully pushed</h4>
+									<span class="notification-time">16 hours ago</span>
+								</div>
+							</a>
+						</li>
+						<li class="media notification-indigo">
+							<a href="#">
+								<div class="media-left">
+									<span class="notification-icon"><i class="ti ti-check"></i></span>
+								</div>
+								<div class="media-body">
+									<h4 class="notification-heading">Update 1.0.1 successfully pushed</h4>
+									<span class="notification-time">2 days ago</span>
+								</div>
+							</a>
+						</li>
+						<li class="media notification-danger">
+							<a href="#">
+								<div class="media-left">
+									<span class="notification-icon"><i class="ti ti-arrow-up"></i></span>
+								</div>
+								<div class="media-body">
+									<h4 class="notification-heading">Initial Release 1.0</h4>
+									<span class="notification-time">4 days ago</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="topnav-dropdown-footer">
+					<a href="#">See all notifications</a>
+				</div>
+			</div>
+		</li>
 
 		<li class="dropdown toolbar-icon-bg">
 			<a href="#" class="dropdown-toggle username" data-toggle="dropdown">
-				<img class="img-circle" src="photo/logo.png" alt="" />
+				<img class="img-circle" src="photo/man.png" alt="" />
 			</a>
 			<ul class="dropdown-menu userinfo arrow">
 				<li><a href="#/"><i class="ti ti-user"></i><span>Profile</span><span class="badge badge-info pull-right">80%</span></a></li>
@@ -154,11 +257,11 @@
         <div class="widget-body">
             <div class="userinfo">
                 <div class="avatar">
-                    <img src="photo/logo.png" class="img-responsive img-circle"> 
+                    <img src="photo/man.png" class="img-responsive img-circle"> 
                 </div>
                 <div class="info">
-                    <span class="username">TOT Hackathon</span>
-                    <span class="useremail">1100@tot.ac.th</span>
+                    <span class="username">TOT FIBER</span><br>
+                    <span class="useremail">i-love-tot@tot.ac.th</span>
                 </div>
             </div>
         </div>
@@ -199,17 +302,17 @@
 	</div>
 	<div class="col-md-3">
 		<div class="info-tile tile-blue">
-				<div class="tile-body"><img src="photo/problem.png" width="10%">&emsp;<span><font size="5px">CHAT WITH PROMA</span></div>
+				<div class="tile-body"><img src="photo/chat.png" width="10%">&emsp;<span><font size="5px">CHAT NOW</span></div>
 		</div>
 	</div>
 	<div class="col-md-3">
 		<div class="info-tile tile-danger">
-				<div class="tile-body"><img src="photo/problem.png" width="10%">&emsp;<span><font size="5px">QUEUE OF YOU</font></span></div>
+				<div class="tile-body"><img src="photo/line.png" width="10%">&emsp;<span><font size="5px">QUEUE OF YOU</font></span></div>
 		</div>
 	</div>
 	<div class="col-md-3">
 		<div class="info-tile tile-blue">
-				<div class="tile-body"><img src="photo/problem.png" width="10%">&emsp;<span><font size="5px">CONTACT</font></span></div>
+				<div class="tile-body"><img src="photo/contact-book.png" width="10%">&emsp;<span><font size="5px">CONTACT</font></span></div>
 		</div>
 	</div>
 </div>
@@ -218,7 +321,7 @@
 			<div class="col-md-6">
 			<div class="panel panel-realtime" data-widget='{"draggable": "false"}'>
 				<div class="panel-heading">
-					<img src="photo/clock.png" width="5%">&nbsp;Real-Time
+					<img src="photo/clock.png" width="5%">&nbsp;&nbsp;REAL TIME
 					<div class="panel-ctrls mr-n">
 						<div class="mt-md mb-md">
 							<input type="checkbox" class="js-switch-success switchery-xs" checked />
@@ -264,35 +367,6 @@
 									<div class="timeline-content">
 										<a href="#/" class="name">Shawna Owen</a> added <a href="#/" class="name">Alonzo Keller</a> and <a href="#/" class="name">Mario Bailey</a> to project <a href="#/">Wordpress eCommerce Template</a>
 										<span class="time">6 mins ago</span>
-									</div>
-								</div>
-							</li>
-
-							<li class="mini-timeline-info">
-								<div class="timeline-icon"></div>
-								<div class="timeline-body">
-									<div class="timeline-content">
-										<a href="#/" class="name">Christian Delgado</a> commented on thread <a href="#/">Frontend Template PSD</a>
-										<span class="time">12 mins ago</span>
-									</div>
-								</div>
-							</li>
-
-							<li class="mini-timeline-indigo">
-								<div class="timeline-icon"></div>
-								<div class="timeline-body">
-									<div class="timeline-content">
-										<a href="#/" class="name">Jonathan Smith</a> added <a href="#/" class="name">Frend Pratt</a> and <a href="#/" class="name">Robin Horton</a> to project <a href="#/">Material Design Admin Template</a>
-										<span class="time">6 hours ago</span>
-									</div>
-								</div>
-							</li>
-							<li class="mini-timeline-lime">
-								<div class="timeline-icon"></div>
-								<div class="timeline-body">
-									<div class="timeline-content">
-										<a href="#/" class="name">Vincent Keller</a> added new task <a href="#/">Admin Dashboard UI</a>
-										<span class="time">4 mins ago</span>
 									</div>
 								</div>
 							</li>
