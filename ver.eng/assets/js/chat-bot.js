@@ -20,17 +20,17 @@ function chatBot() {
 		if(this.match('(hi|hello|hey|hola|howdy)(\\s|!|\\.|$)' || "Tot Fiber" || "tot fiber"))
 			return "Hello,Tot Fiber";
 		
-		if(this.match('I have a problem') || this.match('i have a problem.'))
+		if(this.match('I have a problem.') || this.match('i have a problem.'))
 			return "What is you Problem?";
 
-		if(this.match('internet disconnect'))
+		if(this.match('internet disconnect.'))
 			return "How long has it been to problem?";
 		
 		if(this.match('2 hours') || this.match('1 day'))
 			return "ok, Your Choose a menu Report Problem from Menu-tab.";
 		
-		if(this.match('thank you'))
-			return "";
+		if(this.match('thank you.'))
+			return "ok, bye bye.";
 		
 		if(this.match('(dumb|stupid|is that all)'))
 			return ["hey i'm just a proof of concept", "you can make me smarter if you'd like"];
