@@ -19,7 +19,6 @@
 
     <link type="text/css" href="assets/plugins/codeprettifier/prettify.css" rel="stylesheet">                <!-- Code Prettifier -->
     <link type="text/css" href="assets/plugins/iCheck/skins/minimal/blue.css" rel="stylesheet">              <!-- iCheck -->
-
     <!--[if lt IE 10]>
         <script type="text/javascript" src="assets/js/media.match.min.js"></script>
         <script type="text/javascript" src="assets/js/respond.min.js"></script>
@@ -30,11 +29,6 @@
 <link type="text/css" href="assets/plugins/fullcalendar/fullcalendar.css" rel="stylesheet"> 						<!-- FullCalendar -->
 <link type="text/css" href="assets/plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet"> 			<!-- jVectorMap -->
 <link type="text/css" href="assets/plugins/switchery/switchery.css" rel="stylesheet">   							<!-- Switchery -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
     </head>
 
     <body class="animated-content">
@@ -45,7 +39,7 @@
 		<span id="trigger-sidebar" class="toolbar-trigger toolbar-icon-bg">
 			<a data-toggle="tooltips" data-placement="right" title="Toggle Sidebar">
 				<span class="icon-bg">
-					<i class="ti ti-เมนู"></i>
+					<i class="ti ti-menu"></i>
 				</span>
 			</a>
 		</span>
@@ -73,8 +67,6 @@
 			</ul>
 		</li>
 	</ul>
-
-</header>
 
 </header>
 
@@ -119,8 +111,10 @@
                         <div class="page-content">
                             <ol class="breadcrumb">
                             </ol>
-                            <div class="container-fluid">			
-		<div  class="col-xs-12">
+                            <div class="container-fluid">
+<div data-widget-group="group1">
+		<div class="row">
+			<!-- panel bot chat -->
 			<div class="panel">
 				<div class="panel-heading" style="background-color:#483d8b">
 					<h1 style="font-weight: bold; color:white;"><i class="ti ti-comment-alt"></i>&emsp;Proma Bots</h1>
@@ -138,15 +132,30 @@
 					<script type="text/javascript" src="assets/js/jquery-1.7.2.js"></script>
 					<script type="text/javascript" src="assets/js/chat-bot.js"></script>
 					<script type="text/javascript" src="assets/js/index.js"></script>
-				</div
+				</div>
 			</div>
-		</div>	
+			<!-- /panel bot chat -->
 		</div>
-					</div>
+	</div>
+</div>
+                            </div> <!-- .container-fluid -->
+                        </div> <!-- #page-content -->
+                    </div>
+<footer role="contentinfo">
+    <div class="clearfix">
+        <ul class="list-unstyled list-inline pull-left">
+            <li><h6 style="margin: 0;">&copy; 2019 Hackathon</h6></li>
+        </ul>
+        <button class="pull-right btn btn-link btn-xs hidden-print" id="back-to-top"><i class="ti ti-arrow-up"></i></button>
+    </div>
+</footer>
+
                 </div>
             </div>
-			
-<!-- Switcher -->
+        </div>
+
+    
+    <!-- Switcher -->
     <div class="demo-options">
         <div class="demo-options-icon"><i class="ti ti-comments"></i></div>
         <div class="demo-heading">Chat Bots</div>
@@ -179,6 +188,7 @@
 			</div>
         </div>
     </div>
+<!-- /Switcher -->
     <!-- Load site level scripts -->
 
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
