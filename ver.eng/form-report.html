@@ -57,6 +57,55 @@
 
 	<ul class="nav navbar-nav toolbar pull-right">  
 		<li class="dropdown toolbar-icon-bg">
+			<a href="#" class="hasnotifications dropdown-toggle" data-toggle='dropdown'><span class="icon-bg"><i class="ti ti-bell"></i></span><span class="badge badge-deeporange">2</span></a>
+			<div class="dropdown-menu notifications arrow">
+				<div class="topnav-dropdown-header">
+					<span>Notifications</span>
+				</div>
+				<div class="scroll-pane">
+					<ul class="media-list scroll-content">
+						<li class="media notification-success">
+							<a href="#">
+								<div class="media-left">
+									<span class="notification-icon"><i class="ti ti-check"></i></span>
+								</div>
+								<div class="media-body">
+									<h4 class="notification-heading">Problem has been successfully Solved.</h4>
+									<span class="notification-time">8 mins ago</span>
+								</div>
+							</a>
+						</li>
+						<li class="media notification-info">
+							<a href="#">
+								<div class="media-left">
+									<span class="notification-icon"><i class="ti ti-check"></i></span>
+								</div>
+								<div class="media-body">
+									<h4 class="notification-heading">Problem is Repairing.</h4>
+									<span class="notification-time">10 mins ago</span>
+								</div>
+							</a>
+						</li>
+							
+						<li class="media notification-danger">
+							<a href="#">
+								<div class="media-left">
+									<span class="notification-icon"><i class="ti ti-arrow-up"></i></span>
+								</div>
+								<div class="media-body">
+									<h4 class="notification-heading">The Technician is going to repair.</h4>
+									<span class="notification-time">22 mins ago</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="topnav-dropdown-footer">
+					<a href="#">See all notifications</a>
+				</div>
+			</div>
+		</li>
+		<li class="dropdown toolbar-icon-bg">
 			<a href="#" class="dropdown-toggle username" data-toggle="dropdown">
 				<img class="img-circle" src="photo/man.png" alt="" />
 			</a>
@@ -101,7 +150,7 @@
 				<li><a href="form-report.html">REPORT PROBLEM</a></li>
 				<li><a href="chat_proma.html">CHAT WITH PROMA</a></li>
 				<li><a href="queue.html">QUEUE OF YOU</a></li>
-				<li><a href="extras-forgotpassword.html">CONTACT</a></li>
+				<li><a href="contract.html">CONTACT</a></li>
 			</ul>
 		</li>
 	</ul>
@@ -201,7 +250,7 @@
 					<img class="img-circle avatar" src="photo/logo.png" alt="" />
 				</div>
 				<div class="media-body">
-					<h6 class="notification-heading"><strong>Proma</strong> <span class="text-gray">- ขณะนี้มีโปรโมชั่นพิเศษ...</span></h6>
+					<h6 class="notification-heading"><strong>Proma</strong> <span class="text-gray">- Promotion at now...</span></h6>
 					<span class="notification-time">2 mins ago</span>
 				</div>
 				</a>
@@ -212,7 +261,7 @@
 					<img class="img-circle avatar" src="photo/logo.png" alt="" />
 				</div>
 				<div class="media-body">
-					<h6 class="notification-heading"><strong>Proma</strong> <span class="text-gray">- ใกล้ถึงวันชำระค่าบริการแล้วนะคะ</span></h6>
+					<h6 class="notification-heading"><strong>Proma</strong> <span class="text-gray">- Close to payment day.</span></h6>
 					<span class="notification-time">40 mins ago</span>
 				</div>
 				</a>
@@ -223,6 +272,7 @@
 			</div>
         </div>
     </div>
+<!-- /Switcher -->
     <!-- Load site level scripts -->
 
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
